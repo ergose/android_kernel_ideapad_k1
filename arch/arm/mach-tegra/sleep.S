@@ -481,6 +481,7 @@ ENDPROC(tegra_cpu_pllp)
  * issues SMC (secure monitor call) instruction with
  * the specified parameters.
  */
+.arch_extension sec
 ENTRY(tegra_generic_smc)
 	adr	r3, __tegra_smc_stack
 	stmia	r3, {r4-r12, lr}
