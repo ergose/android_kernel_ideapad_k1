@@ -2,3 +2,5 @@
 *.o.cmd
 *.*.cmd
 *.order
+*.builtin
+*~
