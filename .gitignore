@@ -4,3 +4,12 @@
 *.order
 *.builtin
 *~
+
+### Created by: make cm10_k1_defconfig
+.config
+scripts/basic/docproc
+scripts/basic/fixdep
+scripts/kconfig/conf
+scripts/kconfig/lex.zconf.c
+scripts/kconfig/zconf.hash.c
+scripts/kconfig/zconf.tab.c
